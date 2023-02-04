@@ -1,0 +1,47 @@
+.bug-item {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px lightslategray solid;
+  margin: 0 1rem;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  .bug-item__desc {
+    width: 40%;
+    font-weight: normal;
+  }
+
+  .bug-details-container {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    * {
+      flex-basis: 20%;
+    }
+
+    h4 {
+      font-weight: normal;
+    }
+    p {
+      display: inline-block;
+      padding: 0.15rem 0.6rem;
+      border-radius: 10px;
+    }
+    p[data-status="Open"] {
+      background-color: #04aa6d;
+    }
+
+    p[data-status="Closed"] {
+      background-color: #f44336;
+    }
+
+    p[data-status="In Progress"] {
+      background-color: hsl(22, 90%, 58%);
+    }
+  }
+}

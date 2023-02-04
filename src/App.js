@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import Main from "./shared/pages/Main/Main.component";
+import Main from "./shared/pages/Main.component";
 import RootLayout from "./shared/components/RootLayout.component";
 
 import "./App.css";
