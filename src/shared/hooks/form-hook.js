@@ -4,9 +4,11 @@ import { useCallback, useReducer } from "react";
 // handles input change and set data cases
 // updates form state and form validity
 const formReducer = (state, action) => {
+  console.log("state: ", state, "action: ", action);
   switch (action.type) {
     case "INPUT_CHANGE":
       let formIsValid = true;
+
       for (const inputId in state.inputs) {
         if (!state.inputs[inputId]) continue;
         if (inputId === action.inputId) {

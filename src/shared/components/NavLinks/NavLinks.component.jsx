@@ -15,9 +15,7 @@ const NavLinks = () => {
   return (
     <ul className="nav-links">
       <li>
-        <NavLink to="/" exact>
-          All BUGS
-        </NavLink>
+        <NavLink to="/">All BUGS</NavLink>
       </li>
       {isLoggedIn && (
         <li>
