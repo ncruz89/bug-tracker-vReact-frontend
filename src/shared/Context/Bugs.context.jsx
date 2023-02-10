@@ -5,7 +5,9 @@ const defaultBugs = [
     assignTo: "Nathan",
     createdAt: "02/03/2023",
     createdBy: "Nathan",
-    desc: "a bug description",
+    title: "a bug description",
+    details:
+      "A much longer description of the actual bug issues on top of anything else the creator may want to pass along",
     owner: "Nathan",
     priority: "Normal",
     status: "Open",
@@ -16,7 +18,9 @@ const defaultBugs = [
     assignTo: "Nathan",
     createdAt: "02/03/2023",
     createdBy: "Nathan",
-    desc: "a bug description.",
+    title: "a bug description.",
+    details:
+      "A much longer description of the actual bug issues on top of anything else the creator may want to pass along. This one is different.",
     owner: "Nathan",
     priority: "Critical",
     status: "Closed",
@@ -27,7 +31,9 @@ const defaultBugs = [
     assignTo: "Nina",
     createdAt: "02/04/2023",
     createdBy: "Nathan",
-    desc: "replace flexbox with grid for bug details.",
+    title: "replace flexbox with grid for bug details.",
+    details:
+      "A much longer description of the actual bug issues on top of anything else the creator may want to pass along",
     owner: "Nathan",
     priority: "Critical",
     status: "In Progress",

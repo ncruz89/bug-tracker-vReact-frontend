@@ -20,7 +20,8 @@ const BugList = ({ bugs }) => {
           <BugItem
             key={bug.id}
             owner={bug.owner}
-            desc={bug.desc}
+            title={bug.title}
+            details={bug.details}
             priority={bug.priority}
             status={bug.status}
             createdTime={bug.createdAt}

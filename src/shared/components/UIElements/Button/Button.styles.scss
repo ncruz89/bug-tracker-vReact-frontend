@@ -10,12 +10,12 @@
   text-decoration: none;
   display: inline-block;
 
-  :focus {
+  &:focus {
     outline: none;
   }
 
-  :hover,
-  :active {
+  &:hover,
+  &:active {
     background: #ff4382;
     border-color: #ff4382;
   }
@@ -24,8 +24,8 @@
 .button--inverse {
   background: transparent;
   color: #ff0055;
-  :hover,
-  :active {
+  &:hover,
+  &:active {
     color: white;
     background: #ff0055;
   }
@@ -35,8 +35,8 @@
   background: #830000;
   border-color: #830000;
 
-  :hover,
-  :active {
+  &:hover,
+  &:active {
     background: #f34343;
     border-color: #f34343;
   }
