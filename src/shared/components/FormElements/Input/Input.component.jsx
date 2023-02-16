@@ -111,6 +111,21 @@ const Input = ({
         </select>
       );
       break;
+    case "bug-status":
+      element = (
+        <select
+          id={id}
+          name={id}
+          onChange={changeHandler}
+          value={inputState.value}
+          className={className}
+        >
+          <option value="Open">Open</option>
+          <option value="In Progress">In Progress</option>
+          <option value="Closed">Closed</option>
+        </select>
+      );
+      break;
     default:
       element = (
         <textarea
@@ -118,6 +133,7 @@ const Input = ({
           rows={rows || 3}
           onChange={changeHandler}
           value={inputState.value}
+          placeholder={placeholder}
         />
       );
   }

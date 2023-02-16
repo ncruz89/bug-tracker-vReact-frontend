@@ -13,6 +13,7 @@ const defaultBugs = [
     status: "Open",
     updatedAt: undefined,
     id: "b1",
+    comments: [],
   },
   {
     assignTo: "Nathan",
@@ -26,6 +27,7 @@ const defaultBugs = [
     status: "Closed",
     updatedAt: undefined,
     id: "b2",
+    comments: [],
   },
   {
     assignTo: "Nina",
@@ -39,6 +41,7 @@ const defaultBugs = [
     status: "In Progress",
     updatedAt: undefined,
     id: "b3",
+    comments: [],
   },
 ];
 

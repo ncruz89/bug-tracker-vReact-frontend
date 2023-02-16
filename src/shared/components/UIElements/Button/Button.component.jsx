@@ -9,6 +9,7 @@ import "./Button.styles.scss";
 const Button = ({
   href,
   size,
+  classes,
   inverse,
   danger,
   children,
@@ -45,7 +46,7 @@ const Button = ({
   }
   return (
     <button
-      className={`button button--${size || "default"} ${
+      className={`button ${classes} button--${size || "default"} ${
         inverse && "button--inverse"
       } ${danger && "button--danger"}`}
       type={type}
